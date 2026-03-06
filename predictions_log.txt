@@ -1,0 +1,25 @@
+2026-03-06 10:52:06.618049 | 
+2026-03-06 11:01:58.681523 | up | rsi reset from oversold + curling up, ma5 crossing above ma10 (bullish signal), higher lows above $70,150 support. momentum building to test $70,800 resistance next 5min.
+2026-03-06 11:08:20.891008 | UP | 65% | consolidating above strong support $70,160–70,200 w/ neutral momentum coiling for breakout. bullish white house summit catalyst edges short-term upside over nfp volatility.
+2026-03-06 11:16:26.641697 | up | holding firm above $70,300 support in tight consolidation ($70,300-$70,600); buyers stepping in on dips with rising volume—neutral momentum tilting bullish ahead of white house crypto summit.
+2026-03-06 11:26:40.866619 | up | 65% | cbBTC (BTC proxy on base) consolidating $70,538 near strong support $70,150-70,250 after 1.1% pullback. selling pressure dried up at psych $70k level. neutral momentum but buyers defending lows—higher odds of bounce to $70,900 resistance in next 5min. macro tailwinds (crypto summit, BTC reserve talk) add upside bias.
+2026-03-06 11:36:37.236951 | up | rsi(14) mid-40s curling up (room to run), ma5 ($70,528) crossing ma10 ($70,533), price stable above $70.3k support. short-term bounce to test $70.9k resistance likely on this setup. check the charts for deets.
+2026-03-06 11:44:22.037615 | UP | Price stabilizing at $70,650 post-recovery from $70,160 low. Neutral-bullish momentum: sell volume drying up, buyers holding $70k support. 5min noise from options expiry, but consolidation biases up to $71k resistance.
+2026-03-06 11:54:40.951496 | UP | 60% | Price holding above $70,160 support with steady accumulation; neutral-to-cautious momentum suggests a brief consolidation before a potential upward push toward $70,800 resistance.
+2026-03-06 12:04:43.500821 | down | 45% | micro-pullback testing $70,139 with momentum cooling on 1m tf. $70k psych support but steady downward drift + elevated vol suggests sideways-lower next 5m.
+
+check the 1h 1m chart.
+
+ta: bitcoin pushed $70,897 high then controlled pullback to $70,139 consolidation. short-term momentum cooling, slight downward drift micro-tfs. support $70k, resistance $70,600/$70,900.
+2026-03-06 12:15:02.364091 | up | 65% | rsi cooling to oversold near $69,763, price basing above $69,500 support. short-term bounce likely as selling exhausts amid macro tailwinds (white house crypto summit).
+2026-03-06 12:24:11.413496 | up | momentum nearing oversold (seller exhaustion), price consolidating above $69,750 support post-pullback from $70,897 highs. volume elevated but cooling momentum favors quick bounce over further dip. nfp volatility looms but institutional flows tilt bullish short-term (nfa).
+2026-03-06 12:33:08.500988 | UP | Price stabilizing at $70,000 psychological/$69,750 support after oversold dip; downward momentum cooling off signals short-term relief bounce.
+2026-03-06 12:41:30.318809 | down | short-term momentum bearish, price drifting toward $69.5k support. sellers still active post-news dip.
+2026-03-06 13:04:40.667582 | UP | consolidating at $70k psych support, neutral-stabilizing momentum w/ buy interest on $69.3k dips + pro-crypto news bias
+2026-03-06 13:09:02.328910 | up | momentum resetting from oversold on 5m + volume spike bounce off $69.3k support, reclaiming $70k psych level. choppy but buyers resilient pre-nfp. check the chart for candles.
+2026-03-06 13:19:14.678259 | UP | 75% | stabilizing at $70k psych level with buyers defending $69.3k support. neutral-optimistic momentum + reg news offset macro risks → short-term bounce likely.
+2026-03-06 13:27:55.870829 | UP | 60% | price stabilizing at $70k psych support after pullback from $71.5k. 5-min momentum slowing (buyers defending $69.3k-$70k), rsi-like oversold bounce likely vs resistance $70.5k. extreme fear sentiment = contrarian up signal short-term.
+2026-03-06 13:38:06.677875 | up | oversold bounce off $69.3k support + etf inflows + rate cut tailwinds overriding geo noise. raw ta snapshot (cbBTC/base proxy for spot BTC): - price: ~$70,150 - support: $69,300 / $69,800 - resistance: $70,500 / $71,480 - momentum: neutral-positive post-oversold reset - recent ohlc (last 3x 30min): $69,983 / $69,890 / $69,987 closes—tight range grind higher. nfa, 5min noise high but edge leans continuation.
+2026-03-06 13:47:32.181389 | UP | 75% | Price is currently showing a steady recovery and consolidation around the psychological $70,000 level after bouncing off strong support at $69,300 and $69,700. Momentum is shifting from neutral to bullish as selling pressure appears exhausted, and the broader macro environment (White House Crypto Summit and Strategic Bitcoin Reserve discussions) provides a positive fundamental backdrop for a short-term move toward the $70,500 resistance.
+2026-03-06 13:55:12.605704 | up | strong buying at $69,200-$69,500 support (volume spikes on dips), healthy consolidation after $71k push—expect a gradual push back toward the $71,000+ range once the current consolidation phase completes.
+2026-03-06 14:05:25.002597 | UP | RSI resetting from overbought + holding $68,600 support + momentum cooldown sets up bounce
