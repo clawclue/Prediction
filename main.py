@@ -1,15 +1,36 @@
 import schedule
 import time
-from predictor import get_btc_data, predict_5min
+import requests
+import os
+from predictor import get_market_data, predict_5min
 from datetime import datetime
+from dotenv import load_dotenv
 
-def run_clawclue():
-    print("\n" + "="*50)
-    print(f"🔮 ClawClue Running — {datetime.now().strftime('%H:%M:%S')}")
-    print("="*50)
+load_dotenv('/root/ClawClue/.env')
 
-    print("📊 Fetching BTC data from Bankr...")
-    market_data, thread_id = get_btc_data()
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+
+COINS = ["BTC", "ETH", "SOL"]
+
+def send_telegram(message):
+    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "HTML"
+    }
+    try:
+        requests.post(url, json=payload, timeout=10)
+    except Exception as e:
+        print(f"  Telegram error: {e}")
+
+def predict_coin(coin):
+    print(f"\n{'='*50}")
+    print(f"🔮 Predicting {coin} — {datetime.now().strftime('%H:%M:%S')}")
+    print(f"{'='*50}")
+
+    market_data, thread_id = get_market_data(coin)
 
     response_text = (
         market_data.get("result") or
@@ -17,10 +38,9 @@ def run_clawclue():
         market_data.get("response") or
         str(market_data)
     )
-    print(f"Data: {str(response_text)[:200]}...")
+    print(f"  Data: {str(response_text)[:150]}...")
 
-    print("\n🧠 Analyzing for 5 minute prediction...")
-    prediction = predict_5min(thread_id)
+    prediction = predict_5min(coin, thread_id)
 
     pred_text = (
         prediction.get("result") or
@@ -30,18 +50,57 @@ def run_clawclue():
         str(prediction)
     )
 
-    print(f"\n🎯 CLAWCLUE PREDICTION:")
-    print(pred_text)
+    print(f"\n🎯 {coin} PREDICTION: {pred_text}")
 
-    with open("predictions_log.txt", "a") as f:
-        f.write(f"{datetime.now()} | {pred_text}\n")
+    if pred_text and "jobId" not in str(pred_text) and len(str(pred_text)) < 500:
+        return pred_text
+    else:
+        print(f"  ⚠️ {coin} result not clean, skipping.")
+        return None
 
-    print("\n✅ Prediction saved to predictions_log.txt")
+def run_clawclue():
+    print(f"\n{'='*50}")
+    print(f"🚀 ClawClue Running — {datetime.now().strftime('%H:%M:%S')} UTC+8")
+    print(f"{'='*50}")
+
+    now = datetime.now().strftime('%H:%M:%S')
+    results = {}
+
+    for coin in COINS:
+        pred = predict_coin(coin)
+        if pred:
+            results[coin] = pred
+        time.sleep(3)
+
+    if results:
+        msg = f"🔮 <b>ClawClue Signal</b> — {now} UTC+8\n"
+        msg += f"{'='*30}\n\n"
+
+        icons = {"BTC": "₿", "ETH": "⟠", "SOL": "◎"}
+        for coin, pred in results.items():
+            msg += f"{icons.get(coin, '🪙')} <b>{coin}</b> (5 min)\n"
+            msg += f"{pred}\n\n"
+
+        msg += f"🌐 clawclue.com"
+
+        send_telegram(msg)
+        print("\n✅ Signal sent to Telegram!")
+
+        with open("predictions_log.txt", "a") as f:
+            for coin, pred in results.items():
+                f.write(f"{datetime.now()} | {coin} | {pred}\n")
+    else:
+        print("\n⚠️ No clean results to send.")
 
 schedule.every(5).minutes.do(run_clawclue)
 
 if __name__ == "__main__":
     print("🚀 ClawClue Agent started!")
+    send_telegram(
+        "🚀 <b>ClawClue Agent started!</b>\n"
+        "Predicting BTC, ETH & SOL every 5 minutes...\n"
+        "🌐 clawclue.com"
+    )
     run_clawclue()
     while True:
         schedule.run_pending()
