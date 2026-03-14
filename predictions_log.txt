@@ -1,1 +1,5 @@
 Your prediction results will come out here
+example : 
+2026-03-14 11:10:24.650528 | BTC | DOWN | 60% | price trading below ma5 and ma10 indicates short-term bearish momentum and overhead resistance.
+2026-03-14 11:10:24.650560 | ETH | DOWN | 60% | price trading below ma5 and ma10 indicates short-term bearish momentum.
+2026-03-14 11:10:24.650564 | SOL | DOWN | 55% | price below ma5 with negative 24h momentum and neutral rsi.
