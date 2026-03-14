@@ -1,15 +1,14 @@
 # ClawClue 🔮
 
-AI agent that predicts BTC, ETH & SOL price UP/DOWN every 5 minutes using real-time technical analysis.
+AI agent that predicts BTC, ETH & SOL price UP/DOWN every 2 minutes using real-time technical analysis.
 
 Built on [Bankr Skills](https://github.com/BankrBot/skills)
 
 ## Features
 - Real-time BTC, ETH & SOL price analysis
-- RSI, MA5, MA10, Support & Resistance
+- RSI, EMA, Support & Resistance, Supertrend
 - UP/DOWN prediction with confidence %
-- Telegram notifications every 5 minutes
-- Runs 24/7 on VPS
+- Runs 24/7 on your terminal
 
 ## Setup
 1. Clone repo
