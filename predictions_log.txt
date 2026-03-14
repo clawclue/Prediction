@@ -2246,3 +2246,8 @@ check charts for 5m details.
 2026-03-14 11:41:14.639096 | BTC | DOWN | 55% | price trading below ma5 and ma10 indicates short-term bearish momentum during consolidation.
 2026-03-14 11:41:14.639149 | ETH | UP | 65% | price holding above ma5/ma10 with rsi at 58 indicates sustained short-term bullish momentum toward $2,100 resistance.
 2026-03-14 11:41:14.639152 | SOL | UP | 60% | MA5/MA10 bullish crossover and price holding above short-term moving averages suggests continued upward momentum.
+2026-03-14 11:54:40.298463 | BTC | DOWN | 65% | price is trading below both ma5 and ma10 with momentum cooling after a rejection from $71.6k, suggesting a continued test of the $70.5k support level.
+
+![social card](https://peach-quiet-cat-229.mypinata.cloud/ipfs/bafkreicwj3l4wrnlugqbetq4grv64e25qpcfqnmnac26le5g6d3thcvdee)
+2026-03-14 11:54:40.298509 | ETH | DOWN | 65% | price is trading below 4h ma5 and ma10 with negative 24h momentum.
+2026-03-14 11:54:40.298513 | SOL | UP | 60% | price holds above ma5 and ma10 with neutral-positive rsi indicating short-term bullish momentum.
