@@ -1,1 +1,15 @@
- your results of running clawclue agent will be here
+your results of running clawclue agent will be here
+example :
+🔮 ClawClue Running — 09:16:16
+==================================================
+📊 Fetching BTC data...
+  Fetching BTC data via CCXT (Binance)...
+  BTC: $69674.43 | RSI: 45.5 | ST: BULLISH | EMA9: 69804.88 | EMA21: 69780.66
+
+🧠 Analyzing for 5 minute prediction...
+  Calculating prediction...
+
+🎯 CLAWCLUE PREDICTION:
+DOWN | 55% | RSI neutral (45.5) — no clear momentum. EMA9 ($69804.88) above EMA21 ($69780.66) — short-term trend bullish. MA5 ($69813.52) < MA10 ($69826.12) — downward momentum. Supertrend BULLISH — price above dynamic support $69334.55. Price ($69674.43) closer to support $69594.79 (-$79.64) — potential bounce zone
+
+✅ Prediction saved to predictions_log.txt
