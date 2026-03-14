@@ -2226,3 +2226,23 @@ check charts for 5m details.
 2026-03-12 09:27:51.975285 | BTC | UP | 65% | 1-minute rsi is oversold after a low-volume liquidity grab at $69,167, suggesting an immediate mean reversion to the $69,500 consolidation zone.
 2026-03-12 09:27:51.975308 | ETH | UP | 60% | high volume on recent drop to $2,039.88 suggests buyer absorption at the $2,040 psychological support level, likely leading to a relief bounce.
 2026-03-12 09:27:51.975310 | SOL | UP | 55% | bounce off $85.70 support as micro-timeframe sellers lose steam.
+2026-03-14 10:55:52.069541 | BTC | DOWN | 65% | price trading below short-term moving averages (MA5/MA10) and approaching immediate support at 70.5k.
+2026-03-14 10:55:52.069585 | ETH | DOWN | 60% | price trading below ma5/ma10 resistance with neutral-bearish rsi momentum.
+2026-03-14 10:55:52.069587 | SOL | DOWN | 55% | price trading below ma5 with negative 24h momentum and neutral rsi suggesting short-term consolidation or slight pullback.
+2026-03-14 11:00:16.997834 | BTC | DOWN | 55% | price trading below ma5 and ma10 indicates short-term bearish pressure despite neutral rsi.
+2026-03-14 11:00:16.997853 | ETH | UP | 60% | Price holding above MA5/MA10 crossover with neutral RSI supporting continued short-term momentum.
+2026-03-14 11:00:16.997856 | SOL | UP | 65% | sideways consolidation with bullish macro backdrop and drying sell pressure suggests a drift toward local resistance at $87.10.
+
+![social card](https://peach-quiet-cat-229.mypinata.cloud/ipfs/bafkreidjuuiuqdysycrfh7nhfaodlycaaxikeq26bfs5gssdldvgn6czgy)
+2026-03-14 11:10:24.650528 | BTC | DOWN | 60% | price trading below ma5 and ma10 indicates short-term bearish momentum and overhead resistance.
+2026-03-14 11:10:24.650560 | ETH | DOWN | 60% | price trading below ma5 and ma10 indicates short-term bearish momentum.
+2026-03-14 11:10:24.650564 | SOL | DOWN | 55% | price below ma5 with negative 24h momentum and neutral rsi.
+2026-03-14 11:22:13.964143 | BTC | DOWN | 65% | price trading below ma5 and ma10 indicates short-term bearish momentum.
+2026-03-14 11:22:13.964199 | ETH | DOWN | 65% | price is trading below ma5 and ma10 with negative 24h momentum, indicating immediate downward pressure toward the $2,050 support level.
+2026-03-14 11:22:13.964203 | SOL | DOWN | 60% | price trading below ma5 ($86.85) and negative 24h momentum (-3.72%) suggests short-term bearish pressure.
+2026-03-14 11:32:00.344061 | BTC | DOWN | 60% | price is trading below both ma5 and ma10, indicating short-term bearish momentum and immediate resistance from moving averages.
+2026-03-14 11:32:00.344117 | ETH | DOWN | 55% | 24h trend is bearish at -2.6% and price is consolidating below immediate resistance with no clear reversal signals on short timeframes.
+2026-03-14 11:32:00.344120 | SOL | UP | 55% | price holding above ma5/ma10 support with rsi in bullish territory (55-60) indicating short-term momentum recovery.
+2026-03-14 11:41:14.639096 | BTC | DOWN | 55% | price trading below ma5 and ma10 indicates short-term bearish momentum during consolidation.
+2026-03-14 11:41:14.639149 | ETH | UP | 65% | price holding above ma5/ma10 with rsi at 58 indicates sustained short-term bullish momentum toward $2,100 resistance.
+2026-03-14 11:41:14.639152 | SOL | UP | 60% | MA5/MA10 bullish crossover and price holding above short-term moving averages suggests continued upward momentum.
